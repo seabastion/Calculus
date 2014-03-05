@@ -1,5 +1,5 @@
 /*
- * This class defines several calculus functions
+ * This class defines a few calculus functions
  * 
  * @author Sebastian Hall
  * @date March 4th, 2014
