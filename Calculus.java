@@ -7,9 +7,18 @@
  public class Calculus{
 	 //Constructor
 	 public Calculus{}
-	 //returns the integral of the input function
+	 //returns the integral of the input function. input should be a function type
 	 public String integralFunction(String f){
-		
+	 	switch (f.lowerCase().equals()){
+	 		case "sine":
+	 			return "cosine";
+	 			break;
+	 		case "cosine":
+	 			return "-sine";
+	 			break;
+	 			
+	 	}
+	 	
 	 }
 	 //returns the derivative function
 	 public String derivativeFunction(String f){
