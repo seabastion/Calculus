@@ -9,7 +9,7 @@
 	 public Calculus{}
 	 //returns the integral of the input function. input should be a function type
 	 public String integralFunction(String f){
-	 	switch (f.lowerCase().equals()){
+	 	switch (f.lowerCase()){
 	 		case "sine":
 	 			return "cosine";
 	 			break;
